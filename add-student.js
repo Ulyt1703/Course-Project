@@ -68,13 +68,15 @@ buttonFinishMember.addEventListener("click", async function(){
     } catch (error) {
         console.error("Server connection error:", error)
     }
+
+    location.reload()
 })
 
 
 
 
 /* Функція для видалення елементів з серверу */
-/* fetch("http://localhost:3000/students/", {
+/* fetch("http://localhost:3000/students/eff0", {
     method: "DELETE"
 })
 
