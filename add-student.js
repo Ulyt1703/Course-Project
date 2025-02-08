@@ -76,7 +76,7 @@ buttonFinishMember.addEventListener("click", async function(){
 
 
 /* Функція для видалення елементів з серверу */
-/* fetch("http://localhost:3000/students/eff0", {
+/* fetch("http://localhost:3000/students/b8ac", {
     method: "DELETE"
 })
 
