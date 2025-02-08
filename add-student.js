@@ -68,8 +68,6 @@ buttonFinishMember.addEventListener("click", async function(){
     } catch (error) {
         console.error("Server connection error:", error)
     }
-
-    location.reload()
 })
 
 
